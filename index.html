@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visayas Coco Development Inc. | Coconut Ingredient Supplier</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #f6f6f6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2b1a0f, #5a3a1c);
+            color: #fff;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+        }
+
+        header p {
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 25px;
+        }
+
+        .stats div {
+            text-align: center;
+        }
+
+        .stats strong {
+            font-size: 28px;
+            color: #d4a85f;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #5a3a1c;
+        }
+
+        .grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .grid-3 {
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+        }
+
+        .badge {
+            background: #d4a85f;
+            color: #fff;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+
+        .section-dark {
+            background: #2b1a0f;
+            color: #fff;
+        }
+
+        .section-dark h2 {
+            color: #fff;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .highlight {
+            background: #fff3d6;
+            padding: 20px;
+            border-left: 5px solid #d4a85f;
+            border-radius: 8px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #d4a85f;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            color: #aaa;
+        }
+
+        /* .hero {
+    background:url('assets/img/vcdi-banner.jpg') center/cover no-repeat;
+    height:400px;
+} */
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="banner-img">
+            <h1>Visayas Coco Development Inc.</h1>
+            <p>Philippine Coconut Ingredient Supplier — Mill to FOB</p>
+        </div>
+
+        <div class="stats">
+            <div><strong>32+</strong><br>Years</div>
+            <div><strong>2</strong><br>Locations</div>
+            <div><strong>20 MT</strong><br>Trial Order</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>About Company</h2>
+        <p>
+            Visayas Coco Development Incorporated is a Philippine FDA licensed coconut oil manufacturer since 1993,
+            with over 32 years of continuous production in Western Visayas. We supply crude coconut oil (CNO),
+            refined coconut oil (RBD), and copra meal through an integrated farmer-trader network across Panay Island.
+        </p>
+        </br>
+        <div class="highlight">
+            We are actively seeking trial supply partnerships with Global food manufacturers, distributors, and
+            ingredient buyers.
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Product Specifications — Bulk Export Grade</h2>
+
+        <div class="grid grid-3">
+
+            <div class="card">
+                <span class="badge">CNO</span>
+                <h3>Crude Coconut Oil</h3>
+                <ul>
+                    <li>FFA ≤ 3.0%</li>
+                    <li>Moisture ≤ 0.20%</li>
+                    <li>Impurities ≤ 0.05%</li>
+                    <li>Color (Lovibond) ≤ 3.0 R</li>
+                    <li><strong>Min Order: 20 MT</strong></li>
+                    <li>Packaging: Flexibag / Drum</li>
+                    <li>Container: 1 × 20FT FCL</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <span class="badge">RBD</span>
+                <h3>Refined Coconut Oil</h3>
+                <ul>
+                    <li>FFA ≤ 0.15%</li>
+                    <li>Moisture ≤ 0.10%</li>
+                    <li>Color ≤ 1.5 R</li>
+                    <li>Flavor/Odor: Neutral</li>
+                    <li><strong>Min Order: 20 MT</strong></li>
+                    <li>Packaging: Flexibag / Drum</li>
+                    <li>Tighter spec ≤ 0.10% available</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <span class="badge">MEAL</span>
+                <h3>Copra Meal</h3>
+                <ul>
+                    <li>Protein: 20–22%</li>
+                    <li>Residual Oil: 6–8%</li>
+                    <li>Moisture ≤ 12%</li>
+                    <li>Fiber: 15–18%</li>
+                    <li><strong>Min Order: 10 MT</strong></li>
+                    <li>Packaging: Bulk / 50kg Bags</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container section-dark">
+        <h2>Export Logistics</h2>
+
+        <table class="table">
+            <tr>
+                <td><strong>Export Port</strong></td>
+                <td>Iloilo (Primary), Cebu (Backup)</td>
+            </tr>
+            <tr>
+                <td><strong>Incoterms</strong></td>
+                <td>FOB Iloilo</td>
+            </tr>
+            <tr>
+                <td><strong>Bulk Packaging</strong></td>
+                <td>Flexibag / Drum</td>
+            </tr>
+            <tr>
+                <td><strong>Lead Time</strong></td>
+                <td>2–4 weeks from confirmed PO</td>
+            </tr>
+            <tr>
+                <td><strong>Pricing</strong></td>
+                <td>Rotterdam-linked FOB</td>
+            </tr>
+            <tr>
+                <td><strong>Documents</strong></td>
+                <td>COA · SDS · Phytosanitary · B/L</td>
+            </tr>
+            <tr>
+                <td><strong>Trial Shipments</strong></td>
+                <td>Minimum 20 MT</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>Credentials & Certifications</h2>
+
+        <div class="grid grid-3">
+
+            <div class="card">
+                <h3>Philippine FDA</h3>
+                <p>LTO-3000013850330</p>
+                <p>Valid until Feb 2030</p>
+            </div>
+
+            <div class="card">
+                <h3>Product Registration</h3>
+                <p>CPR: FR-4000012879049</p>
+                <p>Valid until May 2029</p>
+            </div>
+
+            <div class="card">
+                <h3>Certifications</h3>
+                <p>PCA Licensed Oil Mill</p>
+                <p>GMP Certified</p>
+                <p>HACCP (in progress)</p>
+                <p>FSSC 22000 (target 2026)</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Supply Network & Locations</h2>
+
+        <div class="grid grid-3">
+
+            <div class="card">
+                <h3>Main Mill</h3>
+                <p>Jibao-an, Pavia, Iloilo</p>
+                <p>CNO & RBD Production</p>
+            </div>
+
+            <div class="card">
+                <h3>Aklan Branch</h3>
+                <p>Kalibo, Aklan</p>
+                <p>Copra buying & staging</p>
+            </div>
+
+            <div class="card">
+                <h3>Supply Network</h3>
+                <p>Farmer-trader network across Panay Island</p>
+                <p>Traceable ESG supply (in progress)</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container section-dark">
+        <h2>30-Second Introduction</h2>
+        <p>
+            King’s Oil is the coconut ingredient brand of Visayas Coco Development Incorporated, a Philippine
+            FDA-licensed manufacturer with over 30 years of experience since 1993. We produce crude coconut oil (CNO),
+            refined coconut oil (RBD), and coconut meal through an integrated farmer network across Western Visayas. We
+            are currently seeking supply partnerships with Global food companies looking for a reliable and established
+            Philippine supplier.
+        </p>
+
+        <h3 style="margin-top:20px;">Our Ask</h3>
+        <p>
+            One Global food company interested in a trial supply arrangement — 20 MT CNO or RBD.
+            Small start, long-term relationship.
+        </p>
+    </div>
+
+    <div class="container">
+        <h2>Contact</h2>
+        <p>📞 +63 917 813 7051</p>
+        <p>📧 viscoco@gmail.com</p>
+        <p>📍 Iloilo, Philippines</p>
+    </div>
+
+    <footer>
+        © 2026 King's Oil — Visayas Coco Development Inc.
+    </footer>
+
+    <script>
+        function sendInquiry() {
+            alert("Thank you! We'll contact you shortly.");
+        }
+    </script>
+</body>
+
+</html>
